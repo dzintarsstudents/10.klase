@@ -1,0 +1,51 @@
+/* THIS IS FOR ALL PAGES CSS */
+  
+    /* --------------- Font, text, images and background changes for ALL pages--------------- */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;       
+  background-color: #8040e7;                      /* Background */
+  background-image: url(../picture/background.jpg);                           
+  background-attachment: fixed;   
+}
+
+p {
+  letter-spacing: 1px;  /* This will change for all pages text spacing */
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  padding-top: 5px;
+  color: white;
+  text-align: center;
+  font-size: 34px;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 24px;
+}
+
+
+    /* --------------- Creates the white box in middle --------------- */
+.box{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;      
+}
+    
+.tbox{
+  background: rgb(255, 255, 255);
+  margin: 6px;
+  margin-bottom: 50px;
+  width: 675px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+  box-shadow: 8px 15px #00000065;      /* Shadows under white box */
+}
+
